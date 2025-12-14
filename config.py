@@ -18,11 +18,11 @@ AMANBOTZ_TMDB_API = os.environ.get("AMANBOTZ_TMDB_API", "")
 AMANBOTZ_OMDB_API = os.environ.get("AMANBOTZ_OMDB_API", "")
 
 # Owner Configuration
-AMANBOTZ_OWNER_ID = int(os.environ.get("AMANBOTZ_OWNER_ID", "0"))
-AMANBOTZ_LOG_CHANNEL = int(os.environ.get("AMANBOTZ_LOG_CHANNEL", "0"))
+AMANBOTZ_OWNER_ID = int(os.environ.get("AMANBOTZ_OWNER_ID", "6400371201"))
+AMANBOTZ_LOG_CHANNEL = int(os.environ.get("AMANBOTZ_LOG_CHANNEL", "-1002721998250"))
 
 # Auto Post Channel (can be changed via bot)
-AMANBOTZ_AUTO_POST_CHANNEL = int(os.environ.get("AMANBOTZ_AUTO_POST_CHANNEL", "0"))
+AMANBOTZ_AUTO_POST_CHANNEL = int(os.environ.get("AMANBOTZ_AUTO_POST_CHANNEL", "-1002338525724"))
 
 # Check if at least one API is configured
 def check_api_config():
@@ -43,7 +43,8 @@ def get_available_api():
 
 # Bot Info
 AMANBOTZ_BOT_NAME = os.environ.get("AMANBOTZ_BOT_NAME", "Poster Bot")
-AMANBOTZ_BOT_USERNAME = os.environ.get("AMANBOTZ_BOT_USERNAME", "")
+AMANBOTZ_BOT_USERNAME = os.environ.get("AMANBOTZ_BOT_USERNAME", "Creazy_Poster_Bot")
 
 # Scheduler Interval (in hours)
 AMANBOTZ_CHECK_INTERVAL = int(os.environ.get("AMANBOTZ_CHECK_INTERVAL", "6"))
+
